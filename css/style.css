@@ -30,7 +30,6 @@ body {
     justify-content: space-between;
     align-self: center;
     height: 100px;
-
 }
 
 .header__logo {
@@ -105,5 +104,14 @@ body {
     background-color: var(--primary-color);
     color: var(--white-color);
 }
+
+.btn_s {
+    padding: 20px 25px;
+    border-radius: 100%;
+    border: none;
+    text-transform: uppercase;
+    background-color: var(--primary-color);
+}
+
 
 
