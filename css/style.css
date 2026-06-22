@@ -17,7 +17,7 @@ body {
     font-family: 'Nunito Sans', sans-serif;
 }
 .container {
-    width: 1088px;
+    width: 1488px;
     margin: 0 auto;
 }
 .header__wrapper {
@@ -55,7 +55,7 @@ body {
 .header__nav__list__item { padding: 40px 33px;}
 
 .banner {
-    background-image: url('../images/image.png');
+    background-image: url('../images/Image.jpg');
     background-size: cover;
     min-height: 700px;
     margin-top: -100px;
@@ -103,12 +103,25 @@ body {
 }
 
 //* section blog *// 
-.section__blog { 
+.h2_blog_title {
+    font-size: 1.2em;
+    text-align: center;
+    text-transform: uppercase;
+}
+.line {
+    height:2px;
+    color: #FF0000;
+}
+.blog__grid {
     display: flex;
     flex-direction: row;
     justify-content:space-between;
-    align-items:center;
+    align-items: center;
     flex-wrap: nowrap;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    max-width: 1088px;
     gap: 5px;
     padding: 5px;
 }
@@ -122,7 +135,7 @@ body {
     min-width: 0;
 }
 .blog__img {
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
     display: block;
     margin-bottom: 16px;
@@ -152,7 +165,62 @@ body {
     margin-bottom: 80px;
 }
 
-//* section service 
+//* section service *//
+.service__grid {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    max-width: 1088px;
+    gap: 5px;
+    padding: 5px;
+    background-color: var(--dark-black-color);
+    color: var(--white-color);
+}
+.service__article__title {
+    text-transform: uppercase;
+}
+.service__article__btn {
+    border: none;
+    text-transform: uppercase;
+    padding: 10px 26px;
+    border-radius: 35px;
+    background-color:var(--primary-color);
+    text-decoration: none;
+    font-size: 0.9em;
+    color: var(--white-color);
+    margin-bottom: 80px;
+}
+.service__img {
+    width: 50%;
+    height: auto;
+}
+
+//* section contact *//
+.contact__form {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+}
+.contact__form__inside {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+
+}
+
+
+//* popravki
 .section__service { 
     display: flex;
     flex-direction: row;
